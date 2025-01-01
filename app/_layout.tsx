@@ -54,9 +54,13 @@ export default function RootLayout() {
           name="(tabs)"
           options={{ headerShown: false }}
         />
+        <Stack.Screen
+          name="index"
+          options={{ headerShown: false }}
+        />
         <Stack.Screen name="+not-found" />
       </Stack>
-      <StatusBar style="auto" />
+      <StatusBar style="light" backgroundColor='#161622' />
     </ThemeProvider>
   )
 }
